@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Dashboard</title>
+</head>
+<style>>
+.game-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .game-card h3 {
+      padding: 10px;
+      margin: 0;
+      background: #c9e645;
+    }
+  </style>
+<body style="gap: 20px;">
+    <div style="background-color: yellow;">
+        <h1><center>Gaming Dashboard</center></h1>
+        <p><center>Click a game to view more details</center></p>
+    </div>
+    
+
+    <div style="display: flex; background-color: orange; gap: 15px;">
+        <div class="game-card" onclick="redirectTo('game1.html')" style="width: 200px; padding: 10px">
+        <img src="images/game1.png" width="200px" height="200px" alt="Game 1">
+        <h3>Subway Surfers</h3>
+        </div>
+        <div class="game-card" onclick="redirectTo('game2.html')" style="width: 200px; padding: 10px">
+        <img src="images/game2.png" width="200px" height="200px" alt="Game 2">
+        <h3>Candy Crush Saga</h3>
+        </div>
+        <div class="game-card" onclick="redirectTo('game3.html')" style="width: 200px; padding: 10px">
+        <img src="images/game3.png" width="200px" height="200px" alt="Game 3">
+        <h3>Pou</h3>
+        </div> 
+        <div class="game-card" onclick="redirectTo('game4.html')" style="width: 200px; padding: 10px">
+        <img src="images/game4.png" width="200px" height="200px" alt="Game 4">
+        <h3>Temple Run 2</h3>
+        </div>
+    </div>
+    <div style="display: flex; background-color: orange; gap: 15px;"> 
+        <div class="game-card" onclick="redirectTo('game5.html')" style="width: 200px; padding: 10px">
+        <img src="images/game5.png" width="200px" height="200px" alt="Game 5">
+        <h3>Hill Climb Racing</h3>
+        </div>
+        <div class="game-card" onclick="redirectTo('game6.html')" style="width: 200px; padding: 10px">
+        <img src="images/game6.png" width="200px" height="200px" alt="Game 6">
+        <h3>My Talking Tom</h3>
+        </div>
+        <div class="game-card" onclick="redirectTo('game7.html')" style="width: 200px; padding: 10px">
+        <img src="images/game7.png" width="200px" height="200px" alt="Game 7">
+        <h3>Dispicable Me</h3>
+        </div>
+        <div class="game-card" onclick="redirectTo('game8.html')" style="width: 200px; padding: 10px">
+        <img src="images/game8.png" width="200px" height="200px" alt="Game 8">
+        <h3>Angry Birds</h3>
+        </div>
+    </div>
+    <div style="display: flex; background-color: orange; gap: 15px;"> 
+        <div class="game-card" onclick="redirectTo('game9.html')" style="width: 200px; padding: 10px">
+        <img src="images/game9.png" width="200px" height="200px" alt="Game 9">
+        <h3>Fruit Ninja</h3>
+        </div>
+        <div class="game-card" onclick="redirectTo('game10.html')" style="width: 200px; padding: 10px">
+        <img src="images/game10.png"  width="200px" height="200px"alt="Game 10">
+        <h3>Clash of Clans</h3>
+        </div>
+  </div>
+  <script>
+    function redirectTo(page) {
+      window.location.href = page; 
+    }
+  </script>
+</body>
+</html>
